@@ -27,9 +27,4 @@ public enum ECountry implements ICountry {
         return valueOf(countryName.toUpperCase());
     }
 
-    public String toString() {
-        return name();
-    }
-
-
 }
